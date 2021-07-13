@@ -1,0 +1,399 @@
+body{
+    margin: 0;
+    font-family: 'Encode Sans SC', sans-serif;
+    background-color: black;
+}
+header{
+    display: flex;
+    background-color:black ;
+    
+}
+.logo{
+    width: 30%;
+    margin-left: 80px;
+    color: red;
+}
+
+.nav{
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.nav a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.nav a:hover{
+    border-bottom: 2px solid red;
+}
+.nav-icon{
+    width: 20%;
+    margin-top: 35px;
+    margin-left: 40px;
+    
+}
+.nav-icon>a{
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+    
+}
+.nav-icon>a>i:hover{
+    transform:scale(1.5);
+    transition: transform 0.3s;
+    color: red;
+}
+.background{
+    position: absolute;
+    
+}
+.text{
+    position:relative;
+    display: inline-block;
+    width: 100%;  
+    text-align: center;
+    color: white;
+    top: 300px;
+}
+.text>h3{
+    font-size: 30px;
+    opacity: 0.8;
+}
+.text>h1{
+    font-size: 70px;
+}
+.background>img{
+    width: 100%;
+    height: 1000px;   
+}
+#start{
+    background: none;
+    padding:10px 20px;
+    margin-right: 30px;
+    color: white;
+    font-size: 15px;
+    background: linear-gradient(to left, rgba(65, 65, 65, 0) 50%, rgba(255, 0, 0, 0.438) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    
+}
+#start:hover{
+    background-position: left;
+}
+#learn{
+    background: none;
+    padding:10px 20px;
+    margin-left: 30px;
+    color: white;
+    font-size: 15px;
+    background: linear-gradient(to right, rgba(65, 65, 65, 0) 50%, rgba(0, 255, 213, 0.438) 50%) left;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+#learn:hover{
+    background-position: right;
+}
+.class{
+    margin-top: 10px;
+    display:flex;
+    background-color: rgb(0, 0, 0);
+    height: 420px;
+    padding-bottom: 50px;
+}
+.member{
+    margin-top: 50px;
+    width: 55%;
+    margin-left: 150px;
+    color: white;
+}
+.member h1{
+    font-size: 40px;
+}
+.work{
+    margin-top: 50px;
+    padding-left: 100px;
+    border-left:1px solid gray;
+    color: white;
+    width: 45%;
+}
+.member>button{
+    padding: 10px 60px;
+    font-size: 20px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+}
+.work>span{
+    opacity: 0.7;
+}
+.cooment{
+    display: inline-flex;
+    width: 100%;
+    background-color: aquamarine;
+}
+.cooment-text{
+    width: 45%;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.cooment-text>h1{
+    font-size: 40px;
+}
+.gender{
+    width: 55%;
+    display: flex;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.male , .female{
+    width: 50%;
+    margin-right: 50px;
+    box-shadow: 10px 10px 30px gray;
+    padding-bottom: 20px;
+    background-color:paleturquoise;
+    transition: 1s;
+}
+.male:hover{
+    background-color: lightseagreen;
+}
+.female:hover{
+    background-color: lightseagreen;
+}
+
+.male>img{
+    width: 200px;
+    margin-top: 20px;
+    
+}
+.female>img{
+    width: 200px;
+    margin-top: 20px;
+}
+.gender-button{
+    padding: 10px 50px;
+    font-size: 20px;
+}
+.gender-button:hover{
+    background-color: aquamarine;
+    transform: scale(1.2);
+}
+.form{
+    display:block;
+    font-family:sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    
+}
+.name{
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    
+}
+#email1{
+    padding-left: 53px;
+}
+#password1{
+    padding-left: 20px;
+}
+#number1{
+    padding-left: 35px;
+}
+.input-button{
+    margin-top: 30px;
+    padding: 5px 30px;
+    font-size: 1.2em;
+    
+}
+.form-button{
+    margin-left: 110px;
+}
+#firstname:hover{
+    background-color:rgba(127, 255, 212, 0.295);
+}
+#lastname:hover{
+    background-color: rgba(127, 255, 212, 0.295);
+}
+#email:hover{
+    background-color:rgba(127, 255, 212, 0.295);
+}
+#password:hover{
+    background-color:rgba(127, 255, 212, 0.295);
+}
+#number:hover{
+    background-color:rgba(127, 255, 212, 0.295);
+}
+.input-button:hover{
+    background-color:rgba(127, 255, 212, 0.295);
+}
+/* login-site */
+.login-site{
+    background-image: url(images/pexels-karolina-grabowska-4498577.jpg);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    background-size: 100%;
+    color: white;
+    margin-top: 575px;
+    padding-bottom: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.login h1{
+    margin-left: 38%;
+    margin-top: 2%;
+}
+.first-div{
+    margin-left: 25%;
+    
+}
+.first-div span{
+    font-size: 20px;
+}
+.user-name input{
+    width: 250px;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 25px;
+    background: unset;
+    margin-top: 10px;
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:hidden;
+    border-bottom: 2px solid ;
+    border-image: linear-gradient(to right, #e96443, #904e95);
+    border-image-slice: 1;
+    border-radius: 5px; 
+    color:#364D5C;
+    transition: width 1s;
+    transition-delay: 0.3s;
+}
+.user-name input:hover{
+    width: 500px;
+}
+.password input{
+    width: 250px;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 25px;
+    background: unset;
+    margin-top: 10px;
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:hidden;
+    border-bottom: 2px solid ;
+    border-image: linear-gradient(to right, #e96443, #904e95);
+    border-image-slice: 1;
+    border-radius: 5px; 
+    color:#364D5C; 
+    transition: width 1s;
+    transition-delay: 0.3s;
+
+}
+.password input:hover{
+    width: 500px;
+}
+
+.forgot a{
+    margin-left: 30%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+.forgot a:hover{
+    color: #0F496A;
+}
+.login-button{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:hidden;
+    margin-left: 13%;
+    margin-top: 5%;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background:linear-gradient(to left,#eecda3 , #ef629f);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.login-button:hover{
+    background:linear-gradient(to right,#eecda3 , #ef629f);
+    cursor: pointer;     
+}
+.second-div{
+    margin-top: 20px;
+    margin-left: 37%;
+}
+.social-site img{
+    width: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    
+    
+}
+.second-div img:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    
+}
+.third-div{
+    margin-left: 37%;
+}
+.third-div a{
+    text-decoration: none;
+    font-size: 20px;
+    color:red;
+    margin-left: 5%;
+    
+}
+.third-div a:hover{
+    color:#EF6E9F;
+    
+}
+.another-login{
+    margin-left: 50%;
+    
+}
+/* footer */
+.last{
+
+    background-color: black;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+    
+    
+}
+.last a{
+    
+    text-decoration:none;
+    color: white;
+    margin: 20px;
+
+}
+.last a:hover{
+    color: blue;
+    cursor: pointer;
+}
+.last p{
+    color: white;
+    margin: 20px;
+}
+
